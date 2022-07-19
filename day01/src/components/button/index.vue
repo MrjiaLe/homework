@@ -77,6 +77,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$primary: #409eff !default;
+$danger: #e6a23c;
+$success: #00d100;
+$warning: #f56c6c;
 .ma-button {
   border-width: 1px;
   border-style: solid;
@@ -120,39 +124,39 @@ export default {
 }
 
 .ma-button-primary {
-  background-color: #409eff;
-  border-color: #409eff;
+  background-color: $primary;
+  border-color: $primary;
   color: #fff;
   &.is-border {
     background-color: transparent;
-    color: #409eff;
+    color: $primary;
   }
 }
 .ma-button-success {
-  background-color: #00d100;
-  border-color: #00d100;
+  background-color: $success;
+  border-color: $success;
   color: #fff;
   &.is-border {
     background-color: transparent;
-    color: #00d100;
+    color: $success;
   }
 }
 .ma-button-danger {
-  background-color: #e6a23c;
-  border-color: #e6a23c;
+  background-color: $danger;
+  border-color: $danger;
   color: #fff;
   &.is-border {
     background-color: transparent;
-    color: #e6a23c;
+    color: $danger;
   }
 }
 .ma-button-warning {
-  background-color: #f56c6c;
-  border-color: #f56c6c;
+  background-color: $warning;
+  border-color: $warning;
   color: #fff;
   &.is-border {
     background-color: transparent;
-    color: #f56c6c;
+    color: $warning;
   }
 }
 
